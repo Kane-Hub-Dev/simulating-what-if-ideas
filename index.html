@@ -1,5 +1,340 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b17"><title>SIMULATING — 15 Mind-Bending What If Ideas</title><style>
-:root{--bg:#080b17;--ink:#f7f7fc;--muted:#a8aec2;--cyan:#22d3e6;--violet:#9481ff;--pink:#fa65ad;--gold:#ffb52e;--coral:#ff666d}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 12% 0%,#22d3e622,transparent 35rem),radial-gradient(ellipse at 90% 15%,#9481ff25,transparent 35rem),var(--bg);color:var(--ink);font:16px/1.6 system-ui,sans-serif}.bar{height:7px;background:linear-gradient(90deg,var(--gold),var(--coral),var(--cyan),var(--violet),var(--pink))}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}.top{padding:23px 0;display:flex;justify-content:space-between;letter-spacing:.2em;font-weight:900}.hero{min-height:390px;display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;padding:25px 0 55px}.eyebrow,.label{font-size:11px;letter-spacing:.18em;color:var(--cyan);font-weight:900}.eyebrow{color:var(--gold)}h1{font-size:clamp(48px,7vw,88px);line-height:.95;letter-spacing:-.07em;margin:12px 0 20px}h1 em{font-style:normal;background:linear-gradient(90deg,var(--gold),var(--coral),var(--cyan),var(--violet));color:transparent;background-clip:text}.lead{color:#c4c9d8;max-width:580px}.orb{margin:auto;width:min(310px,75vw);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 30% 25%,#fff,#94f4ff 8%,#24bbd8 28%,#5b48cb 60%,#101329 78%);box-shadow:0 0 60px #22d3e655,0 0 140px #9481ff44;position:relative}.orb:before,.orb:after{content:"";position:absolute;inset:-8%;border:2px solid transparent;border-top-color:var(--cyan);border-right-color:var(--violet);border-radius:50%;transform:rotate(-25deg)}.orb:after{inset:8%;border-top-color:var(--pink);border-bottom-color:var(--gold);transform:rotate(35deg)}.orb b{font-size:110px;color:#101329;text-shadow:0 3px 25px #fff}.stats{display:flex;gap:28px;margin-top:30px}.stats b{font-size:27px;display:block;color:var(--gold)}.stats span{font-size:10px;letter-spacing:.14em;color:var(--muted)}.section{border-top:1px solid #ffffff22;padding:25px 0 65px}.head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:22px}h2{font-size:clamp(28px,4vw,42px);line-height:1.1;margin:0}.search{width:min(350px,100%);padding:13px 17px;border-radius:30px;border:1px solid #ffffff2a;background:#10162a;color:white}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{--c:var(--cyan);background:linear-gradient(145deg,#18223b,#0d1326);border:1px solid #ffffff20;border-radius:19px;padding:22px;position:relative;overflow:hidden}.card:before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--c);box-shadow:0 0 20px var(--c)}.row{display:flex;gap:12px}.n{font-size:32px;font-weight:950;color:var(--c)}h3{font-size:18px;line-height:1.3;margin:0}.premise{font-size:12px;color:#aab5cb;font-style:italic;margin:2px 0 8px}.label{display:block;margin:18px 0 7px;color:#98a3bb;font-size:10px}.thumb{color:var(--c);font-weight:950;letter-spacing:.05em;background:#080d1b;padding:6px 10px;border-radius:6px;display:inline-block}.science{color:#d8dcec;font-size:14px}.buttons{display:flex;flex-wrap:wrap;gap:7px;border-top:1px solid #ffffff18;padding-top:13px;margin-top:15px}.copy{border:1px solid #ffffff25;border-radius:20px;padding:8px 11px;background:#ffffff10;color:white;font-weight:800;font-size:11px;cursor:pointer}.copy.primary{background:var(--c);color:#07101a;border:0}.toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,20px);opacity:0;background:#fff;color:#111;padding:10px 18px;border-radius:30px;font-weight:800;transition:.2s;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}footer{border-top:1px solid #ffffff22;color:#9099ad;padding:25px 0;font-size:11px;letter-spacing:.15em}@media(max-width:760px){.hero{grid-template-columns:1fr}.orb{width:230px;grid-row:1}.head{align-items:stretch;flex-direction:column}.search{width:100%}.cards{grid-template-columns:1fr}.top{padding:17px 0}}
-</style></head><body><div class="bar"></div><header class="wrap top"><span>✦ SIMULATING</span><span style="font-size:10px;color:#a8aec2">SCIENCE · WHAT IF</span></header><main class="wrap"><section class="hero"><div><div class="eyebrow">VIRAL VIDEO IDEAS · SCIENCE EDITION</div><h1>What If…<br><em>15 Mind-Bending</em><br>Scenarios, One<br>Dark Twist Each</h1><p class="lead">Each idea comes with a viral title, thumbnail text and the real science that makes the dream a nightmare.</p><div class="stats"><div><b>15</b><span>VIDEO IDEAS</span></div><div><b>15</b><span>TITLES</span></div><div><b>15</b><span>THUMBNAILS</span></div></div></div><div class="orb"><b>?</b></div></section><section class="section"><div class="head"><div><div class="eyebrow">WHAT IF · 15 VIDEO IDEAS</div><h2>Choose a scenario.<br>Copy it. Start creating.</h2></div><input id="search" class="search" placeholder="Search the 15 ideas…" type="search"></div><div id="cards" class="cards"></div><p id="empty" hidden>No matching ideas. Try another search.</p></section></main><footer class="wrap">SIMULATING · WHAT IF · 15 VIDEO IDEAS</footer><div id="toast" class="toast">Copied to clipboard</div><script src="ideas-1.js"></script><script src="ideas-2.js"></script><script src="ideas-3.js"></script><script>
-const ideas=[...(window.IDEAS1||[]),...(window.IDEAS2||[]),...(window.IDEAS3||[])];const cards=document.getElementById("cards"),toast=document.getElementById("toast");function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}function full(x){return x.slice(0,4).join(" ")}function notify(){toast.classList.add("show");setTimeout(()=>toast.classList.remove("show"),1500)}async function cp(s){try{await navigator.clipboard.writeText(s);notify()}catch(e){const t=document.createElement("textarea");t.value=s;document.body.append(t);t.select();document.execCommand("copy");t.remove();notify()}}function render(){cards.innerHTML=ideas.map((x,i)=>'<article class="card" style="--c:'+x[4]+'"><div class="row"><div class="n">'+String(i+1).padStart(2,"0")+'</div><div><p class="premise">PREMISE · “'+esc(x[0])+'”</p><h3>'+esc(x[1])+'</h3></div></div><span class="label">THUMBNAIL TEXT</span><span class="thumb">'+esc(x[2])+'</span><span class="label">THE REAL SCIENCE TWIST</span><p class="science">'+esc(x[3])+'</p><div class="buttons"><button class="copy primary" data-i="'+i+'" data-k="all">Copy idea</button><button class="copy" data-i="'+i+'" data-k="title">Copy title</button><button class="copy" data-i="'+i+'" data-k="thumb">Copy thumbnail</button><button class="copy" data-i="'+i+'" data-k="science">Copy science twist</button></div></article>').join("")}render();cards.addEventListener("click",e=>{const b=e.target.closest("button[data-i]");if(!b)return;const x=ideas[+b.dataset.i],v=b.dataset.k;cp(v==="title"?x[1]:v==="thumb"?x[2]:v==="science"?x[3]:full(x))});document.getElementById("search").addEventListener("input",e=>{const q=e.target.value.toLowerCase();let n=0;cards.querySelectorAll(".card").forEach((c,i)=>{const ok=ideas[i].join(" ").toLowerCase().includes(q);c.hidden=!ok;if(ok)n++});document.getElementById("empty").hidden=!!n});const all=document.createElement("button");all.className="copy";all.textContent="Copy all 15 ideas";all.style.margin="0 0 18px";all.onclick=()=>cp(ideas.map(full).join(" "));document.querySelector(".head").append(all);
-</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b17">
+  <meta name="description" content="SIMULATING — 15 mind-bending What If scenarios, with one dark twist each.">
+  <title>SIMULATING — What If… 15 Mind-Bending Scenarios</title>
+  <style>
+    :root {
+      --ink: #f7f7fc;
+      --muted: #a8aec2;
+      --night: #080b17;
+      --panel: #11172a;
+      --panel-2: #151d34;
+      --line: rgba(255,255,255,.10);
+      --gold: #ffb52e;
+      --coral: #ff666d;
+      --cyan: #22d3e6;
+      --violet: #9481ff;
+      --green: #39d49b;
+      --pink: #fa65ad;
+      --shadow: 0 28px 70px rgba(0,0,0,.28);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at 15% 5%, rgba(34,211,230,.12), transparent 32rem),
+        radial-gradient(ellipse at 90% 15%, rgba(148,129,255,.14), transparent 35rem),
+        var(--night);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    .color-strip { height: 7px; background: linear-gradient(90deg,var(--gold) 0 16.6%,var(--coral) 16.6% 33.2%,var(--cyan) 33.2% 49.8%,var(--violet) 49.8% 66.4%,var(--green) 66.4% 83%,var(--pink) 83% 100%); }
+    .wrap { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+    .topbar { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:25px 0; }
+    .brand { display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--ink); font-weight:900; letter-spacing:.22em; font-size:.9rem; }
+    .brand-mark { display:grid; place-items:center; width:34px; height:34px; border-radius:11px; background:linear-gradient(135deg,var(--cyan),var(--violet) 55%,var(--pink)); color:#07101c; font-size:1.05rem; box-shadow:0 0 28px rgba(34,211,230,.25); }
+    .top-note { color:var(--muted); text-transform:uppercase; letter-spacing:.16em; font-size:.68rem; font-weight:800; }
+    .hero { min-height: 595px; display:grid; grid-template-columns:1.05fr .95fr; gap:28px; align-items:center; padding:42px 0 65px; position:relative; }
+    .eyebrow { color:var(--gold); font-size:.72rem; font-weight:900; text-transform:uppercase; letter-spacing:.2em; margin:0 0 22px; }
+    h1 { font-size:clamp(3.2rem,7.5vw,6.6rem); line-height:.93; letter-spacing:-.075em; margin:0; max-width:760px; }
+    h1 .accent { background:linear-gradient(95deg,var(--gold),var(--coral),var(--cyan),var(--violet)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+    .hero-copy { margin:26px 0 0; color:#c4c9d8; font-size:1.08rem; max-width:580px; }
+    .hero-rule { width:92px; height:5px; margin:30px 0 28px; border-radius:8px; background:linear-gradient(90deg,var(--gold),var(--pink)); }
+    .hero-cta { display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+    .primary-btn,.ghost-btn,.copy-btn { border:0; border-radius:999px; padding:12px 19px; font-weight:850; font-size:.82rem; transition:transform .2s ease,filter .2s ease,background .2s ease; }
+    .primary-btn { color:#08101c; background:linear-gradient(100deg,var(--gold),var(--coral)); box-shadow:0 10px 30px rgba(255,102,109,.2); }
+    .ghost-btn { color:var(--ink); background:rgba(255,255,255,.07); border:1px solid var(--line); }
+    .primary-btn:hover,.ghost-btn:hover,.copy-btn:hover { transform:translateY(-2px); filter:brightness(1.08); }
+    .hero-art { min-height:390px; position:relative; display:grid; place-items:center; isolation:isolate; }
+    .hero-art:before,.hero-art:after { content:""; position:absolute; border-radius:50%; filter:blur(1px); z-index:-1; }
+    .hero-art:before { width:360px;height:360px;background:radial-gradient(circle,rgba(34,211,230,.19),rgba(148,129,255,.08) 52%,transparent 72%); }
+    .hero-art:after { width:470px;height:470px;border:1px solid rgba(255,255,255,.08); box-shadow:0 0 80px rgba(148,129,255,.1),inset 0 0 80px rgba(34,211,230,.06); }
+    .orb { width:min(390px,88%); aspect-ratio:1; position:relative; display:grid; place-items:center; border-radius:50%; background:radial-gradient(circle at 35% 27%,#303c67 0,#17213e 30%,#0c1124 65%,#080b17 75%); box-shadow:inset -28px -28px 60px rgba(0,0,0,.65),inset 15px 12px 38px rgba(255,255,255,.08),0 25px 100px rgba(34,211,230,.13); }
+    .orb:before,.orb:after { content:""; position:absolute; inset:-8%; border:2px solid transparent; border-top-color:var(--cyan); border-right-color:var(--violet); border-radius:50%; transform:rotate(-25deg); filter:drop-shadow(0 0 13px rgba(34,211,230,.65)); }
+    .orb:after { inset:6%; border-top-color:var(--pink); border-right-color:transparent; border-bottom-color:var(--gold); transform:rotate(38deg); opacity:.8; }
+    .orb-core { width:39%; aspect-ratio:1; border-radius:50%; background:radial-gradient(circle at 30% 30%,#fff 0,#a5f7ff 7%,#23cde2 22%,#725cff 58%,#171a43 77%); box-shadow:0 0 24px rgba(34,211,230,.85),0 0 80px rgba(148,129,255,.55); position:relative; }
+    .orb-core:after { content:"?"; position:absolute; inset:0; display:grid; place-items:center; color:white; font-size:clamp(3.2rem,7vw,5.2rem); line-height:1; font-weight:950; text-shadow:0 4px 20px rgba(0,0,0,.4); }
+    .orbit-dot { position:absolute; width:13px;height:13px;border-radius:50%; background:var(--gold); box-shadow:0 0 24px var(--gold); top:19%; right:14%; }
+    .orbit-dot.two { width:9px;height:9px; background:var(--pink); box-shadow:0 0 22px var(--pink); top:auto; right:auto; bottom:18%; left:13%; }
+    .float-tag { position:absolute; padding:9px 13px; background:rgba(17,23,42,.82); border:1px solid rgba(255,255,255,.15); border-radius:12px; color:#d9deee; font-size:.68rem; font-weight:850; letter-spacing:.12em; text-transform:uppercase; backdrop-filter:blur(10px); box-shadow:var(--shadow); }
+    .float-tag.one { top:11%;left:1%; transform:rotate(-7deg); }
+    .float-tag.two { bottom:12%;right:0; transform:rotate(7deg); }
+    .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:55px; max-width:530px; }
+    .stat { border-left:2px solid var(--line); padding:4px 0 4px 17px; }
+    .stat strong { display:block; font-size:2rem; line-height:1; letter-spacing:-.06em; }
+    .stat:nth-child(1) strong { color:var(--gold); }
+    .stat:nth-child(2) strong { color:var(--coral); }
+    .stat:nth-child(3) strong { color:var(--cyan); }
+    .stat span { color:var(--muted); font-size:.63rem; text-transform:uppercase; letter-spacing:.12em; font-weight:850; }
+    .section-head { display:flex; justify-content:space-between; align-items:end; gap:24px; padding:20px 0 24px; border-top:1px solid var(--line); }
+    .section-kicker { color:var(--cyan); font-size:.68rem; font-weight:900; letter-spacing:.2em; text-transform:uppercase; margin:0 0 8px; }
+    h2 { margin:0; font-size:clamp(1.8rem,4vw,3rem); letter-spacing:-.055em; line-height:1.05; }
+    .tools { display:flex; align-items:center; gap:10px; width:min(370px,100%); }
+    .search { width:100%; background:#10162a; border:1px solid var(--line); color:var(--ink); border-radius:999px; padding:12px 17px; outline:none; }
+    .search:focus { border-color:var(--cyan); box-shadow:0 0 0 3px rgba(34,211,230,.12); }
+    .cards { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px; padding:4px 0 90px; }
+    .idea { --idea:var(--gold); position:relative; overflow:hidden; background:linear-gradient(145deg,rgba(21,29,52,.97),rgba(12,17,33,.97)); border:1px solid rgba(255,255,255,.09); border-radius:21px; padding:23px 24px 22px; box-shadow:0 14px 40px rgba(0,0,0,.17); transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease; }
+    .idea:hover { transform:translateY(-4px); border-color:color-mix(in srgb,var(--idea),transparent 45%); box-shadow:0 22px 55px rgba(0,0,0,.3); }
+    .idea:before { content:""; position:absolute; left:0;top:0;bottom:0;width:4px; background:var(--idea); box-shadow:0 0 22px color-mix(in srgb,var(--idea),transparent 30%); }
+    .idea-top { display:flex; gap:15px; align-items:flex-start; }
+    .number { flex:0 0 auto; color:var(--idea); font-size:2.55rem; line-height:.95; font-weight:950; letter-spacing:-.08em; }
+    .idea-heading { flex:1; min-width:0; }
+    .premise { margin:0 0 8px; color:#aeb6ca; font-size:.74rem; font-style:italic; }
+    h3 { margin:0; font-size:1.15rem; line-height:1.25; letter-spacing:-.025em; }
+    .art-chip { width:58px;height:58px; flex:0 0 auto; border-radius:16px; display:grid;place-items:center; background:radial-gradient(circle at 30% 25%,color-mix(in srgb,var(--idea),white 25%),color-mix(in srgb,var(--idea),#10162a 75%)); border:1px solid color-mix(in srgb,var(--idea),transparent 55%); box-shadow:inset 0 0 24px rgba(255,255,255,.1),0 8px 25px rgba(0,0,0,.18); }
+    .art-chip svg { width:36px;height:36px; stroke:#fff; fill:none; stroke-width:1.7; stroke-linecap:round;stroke-linejoin:round; filter:drop-shadow(0 2px 5px rgba(0,0,0,.3)); }
+    .label { display:block; margin:21px 0 8px; color:#8e98b0; font-size:.61rem; font-weight:950; letter-spacing:.16em; text-transform:uppercase; }
+    .thumb-row { display:flex; flex-wrap:wrap; align-items:center; gap:10px; }
+    .thumb { display:inline-block; padding:8px 12px; border-radius:7px; background:#070b17; border:1px solid rgba(255,255,255,.08); color:var(--idea); font-size:.77rem; font-weight:950; letter-spacing:.035em; }
+    .science { margin:0; color:#d8dcec; font-size:.88rem; line-height:1.66; }
+    .idea-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:19px; padding-top:15px; border-top:1px solid rgba(255,255,255,.07); }
+    .copy-btn { padding:8px 12px; font-size:.68rem; color:#dbe1f2; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.09); }
+    .copy-btn.primary-copy { color:#0a1020; background:var(--idea); border-color:transparent; }
+    .empty { display:none; grid-column:1/-1; padding:35px; text-align:center; color:var(--muted); border:1px dashed var(--line); border-radius:18px; }
+    footer { border-top:1px solid var(--line); padding:28px 0 40px; color:#8089a1; font-size:.72rem; display:flex; justify-content:space-between; gap:18px; flex-wrap:wrap; }
+    .toast { position:fixed; left:50%; bottom:24px; transform:translate(-50%,20px); opacity:0; pointer-events:none; z-index:20; background:#f5f7ff; color:#101525; padding:11px 17px; border-radius:999px; font-size:.78rem; font-weight:900; box-shadow:0 12px 35px rgba(0,0,0,.35); transition:opacity .2s ease,transform .2s ease; }
+    .toast.show { opacity:1; transform:translate(-50%,0); }
+    @media (max-width:850px) { .hero { grid-template-columns:1fr; padding-top:45px; } .hero-art { min-height:340px; grid-row:1; } .hero-copy { max-width:650px; } .stats { margin-top:38px; } }
+    @media (max-width:650px) { .wrap { width:min(100% - 26px,1180px); } .topbar { padding:18px 0; } .top-note { display:none; } .hero { padding:25px 0 48px; gap:0; } .hero-art { min-height:285px; } .orb { width:245px; } .hero-art:after { width:310px;height:310px; } .float-tag { font-size:.57rem; } .float-tag.one { left:0; } .float-tag.two { right:0; } h1 { font-size:clamp(3rem,16vw,5rem); } .hero-copy { font-size:.96rem; } .section-head { align-items:stretch; flex-direction:column; } .tools { width:100%; } .cards { grid-template-columns:1fr; gap:13px; padding-bottom:60px; } .idea { padding:19px 18px 18px; } .number { font-size:2.2rem; } .art-chip { width:49px;height:49px; } h3 { font-size:1.04rem; } .science { font-size:.85rem; } footer { flex-direction:column; } }
+    @media (prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto!important; transition:none!important; } }
+  </style>
+</head>
+<body>
+  <div class="color-strip"></div>
+  <header class="wrap topbar">
+    <a class="brand" href="#top" aria-label="SIMULATING home"><span class="brand-mark">S</span><span>SIMULATING</span></a>
+    <div class="top-note">Viral video ideas · Science edition</div>
+  </header>
+
+  <main id="top" class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow">VIRAL VIDEO IDEAS · SCIENCE EDITION</p>
+        <h1 id="hero-title">What If…<br><span class="accent">15 Mind-Bending</span><br>Scenarios, One<br>Dark Twist Each</h1>
+        <div class="hero-rule"></div>
+        <div class="hero-cta"><button class="primary-btn" id="jump-to-ideas">Explore the 15 ideas</button><button class="ghost-btn" id="copy-all">Copy all 15 ideas</button></div>
+        <p class="hero-copy">Each idea comes with a viral title, thumbnail text and the real science that makes the dream a nightmare.</p>
+        <div class="stats" aria-label="Collection statistics">
+          <div class="stat"><strong>15</strong><span>VIDEO IDEAS</span></div>
+          <div class="stat"><strong>15</strong><span>TITLES</span></div>
+          <div class="stat"><strong>15</strong><span>THUMBNAILS</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <span class="float-tag one">REAL SCIENCE</span>
+        <div class="orb"><div class="orb-core"></div><span class="orbit-dot"></span><span class="orbit-dot two"></span></div>
+        <span class="float-tag two">DARK TWISTS</span>
+      </div>
+    </section>
+
+    <section aria-labelledby="ideas-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">WHAT IF · 15 VIDEO IDEAS</p>
+          <h2 id="ideas-title">Choose a scenario.<br>Copy it. Start creating.</h2>
+        </div>
+        <div class="tools"><input id="search" class="search" type="search" placeholder="Search the 15 ideas…" aria-label="Search ideas"></div>
+      </div>
+      <div id="cards" class="cards"></div>
+      <div id="empty" class="empty">No matching ideas. Try another search.</div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <span>SIMULATING</span>
+    <span>WHAT IF · 15 VIDEO IDEAS</span>
+    <span>15 VIDEO IDEAS · 15 TITLES · 15 THUMBNAILS</span>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite">Copied to clipboard</div>
+
+  <script>
+    const ideas = [
+      {
+        n:"01", color:"#ffb52e", art:"brain",
+        premise:"What if you remembered everything since you were born?",
+        title:"What if you could never forget anything? The Reality of Total Memory",
+        thumb:"MY BRAIN IS FULL.",
+        science:"There is a real condition called Hyperthymesia. Your brain forgets on purpose so you can heal from trauma and make decisions. If you remembered every awkward, painful second from age 1 in 4K detail, a bad memory from 10 years ago would hurt just as much as if it happened 5 seconds ago."
+      },
+      {
+        n:"02", color:"#ff666d", art:"moon",
+        premise:"What if you never had to sleep again?",
+        title:"What if you never needed sleep? The Reality of a 24-Hour Life",
+        thumb:"AWAKE FOREVER.",
+        science:"At first, you gain 8 free hours a day and make double the money. By Month 6, you experience crushing psychological isolation during the 8 dark hours every night when everyone you love is unconscious—and without REM dreams, your brain loses the ability to process human emotion."
+      },
+      {
+        n:"03", color:"#22d3e6", art:"hourglass",
+        premise:"What if you woke up as an 18-year-old with all the knowledge you currently have?",
+        title:"What if you woke up at age 10 with all your adult memories?",
+        thumb:"TRAPPED IN A CHILD.",
+        science:"Everyone dreams of buying Bitcoin early and fixing mistakes. The nightmare? You have the mind of an adult trapped around 10-year-old kids. You can't date anyone, your parents treat you like a baby, and one small change you make (the Butterfly Effect) accidentally erases the people you loved in your original timeline."
+      },
+      {
+        n:"04", color:"#9481ff", art:"eye",
+        premise:"What if you could take a serum that would block fear forever?",
+        title:"What if you could never feel fear? The Reality of Zero Fear",
+        thumb:"FEAR KEPT YOU ALIVE.",
+        science:"Based on real patients with Urbach-Wiethe disease (where the brain's amygdala is destroyed). You become ultra-confident socially—until you realize fear is your brain's survival radar. You miss subtle danger signs in bad people, take fatal financial and physical risks, and can no longer feel excitement or adrenaline."
+      },
+      {
+        n:"05", color:"#39d49b", art:"dice",
+        premise:"What if you could do one thing with a 0% chance of failure?",
+        title:"What if you had 100% luck? The Dark Reality of Never Failing",
+        thumb:"WINNING RUINED ME.",
+        science:"Your brain’s dopamine system (reward prediction error) only fires when outcome is uncertain. If you win every lottery, every game, and every argument 100% of the time, your dopamine receptors shut down completely—leading to severe anhedonia (total inability to feel pleasure) while the government hunts you for \"rigging\" the system."
+      },
+      {
+        n:"06", color:"#fa65ad", art:"hand",
+        premise:"What if you could know the worst thing somebody ever did just by touching their hand?",
+        title:"What if touching someone showed you their darkest secret?",
+        thumb:"DON'T TOUCH ANYONE.",
+        science:"You shake your boss’s hand and get rich with leverage. Then you accidentally hug your mother, your best friend, and your partner—and realize every human alive has a dark moment you were never meant to see. You end up wearing gloves, terrified of human skin."
+      },
+      {
+        n:"07", color:"#ffb52e", art:"telescope",
+        premise:"What if you knew tomorrow's news before it happened?",
+        title:"What if you could see 24 hours into the future? The Reality of Foresight",
+        thumb:"YOU CAN'T STOP IT.",
+        science:"Seeing stock prices makes you a billionaire in a week. Then you see a disaster or death happening tomorrow—and learn how the Cassandra Complex works: whenever you warn police or family before a tragedy happens, they think you caused it or lock you in a psychiatric ward."
+      },
+      {
+        n:"08", color:"#ff666d", art:"spark",
+        premise:"What if you could learn any subject just by touching a textbook / instantly gain any skill?",
+        title:"What if you could master any skill in 1 second? The Reality of Instant Genius",
+        thumb:"NOTHING LEFT TO LEARN.",
+        science:"How human neuroplasticity and synaptic pruning work—plus the existential collapse of mastering instruments, languages, and careers in an afternoon when human happiness actually comes from the struggle of learning, not the finish line."
+      },
+      {
+        n:"09", color:"#22d3e6", art:"rewind",
+        premise:"What if you had the power to rewind and re-do conversations?",
+        title:"What if you could rewind life by 60 seconds? The Reality of Time Loops",
+        thumb:"TRIAL #4,812.",
+        science:"You rewind every awkward joke, every bad trade, every argument with your partner until you say the \"perfect\" sentence. Soon, no relationship in your life is real—you are a puppeteer who has watched your wife cry 50 times in deleted timelines she doesn't even remember."
+      },
+      {
+        n:"10", color:"#9481ff", art:"clock",
+        premise:"What if you stopped physically aging?",
+        title:"What if you stopped aging at 21? The Reality of Biological Immortality",
+        thumb:"EVERYONE GREW OLD.",
+        science:"Unlike true immortality, you can still die in a car crash—so as your lifespan stretches to hundreds of years, your statistical odds of a fatal accident approach 100%, creating crippling paranoia where you refuse to leave your bedroom, while having to fake your death and abandon your family every 15 years so governments don't dissect you."
+      },
+      {
+        n:"11", color:"#39d49b", art:"mind",
+        premise:"What if you could read your coworkers' minds / communicate telepathically?",
+        title:"What if you could read every mind in the room? The Reality of Telepathy",
+        thumb:"MAKE THEM STOP.",
+        science:"6,000 raw intrusive thoughts per person per day + 4,000 words per minute of uncompressed inner speech destroying your sanity and every relationship you have."
+      },
+      {
+        n:"12", color:"#fa65ad", art:"loop",
+        premise:"What if you woke up in a time loop?",
+        title:"What if you lived the same 24 hours for 1,000 years?",
+        thumb:"DAY 365,000.",
+        science:"How the human hippocampus processes repetitive memory—and what happens on the day the loop finally breaks and you have to return to \"Tomorrow\" with a 1,000-year-old mind inside a 25-year-old body."
+      },
+      {
+        n:"13", color:"#ffb52e", art:"cloud",
+        premise:"What if you could preserve your consciousness in a computer?",
+        title:"What if you uploaded your mind to the cloud? The Reality of Digital Immortality",
+        thumb:"IT'S NOT YOU.",
+        science:"The Copy Paradox + what happens to a human consciousness inside a server when there is no heart rate, no hormones, no sleep, and clock speed runs 1,000x faster than human time (1 minute in the real world feels like 16 hours of solitary confinement inside the chip)."
+      },
+      {
+        n:"14", color:"#ff666d", art:"mask",
+        premise:"What if you found out you were at the center of a Truman Show scenario?",
+        title:"What if everyone you know was a paid actor? The Truman Reality",
+        thumb:"NONE OF IT WAS REAL.",
+        science:"Based on the real psychiatric condition The Truman Show Delusion—exploring how your brain searches for tiny glitches in your mother's smile and why, once that seed of doubt enters the human brain, no amount of proof can ever convince you the world is real again."
+      },
+      {
+        n:"15", color:"#22d3e6", art:"memory",
+        premise:"What if you could choose to forget certain memories / erase memories?",
+        title:"What if you could delete painful memories? The Reality of Memory Erasure",
+        thumb:"WHO AM I?",
+        science:"Neuroscience shows memories aren't stored like isolated video files in a folder; they are wired in a web. Deleting one heartbreak or failure unravels the lessons that built your personality, turning you into a stranger who repeats the exact same mistakes without knowing why."
+      }
+    ];
+
+    const art = {
+      brain:'<path d="M18 11c-4-5-11-2-10 3-4 1-4 7 0 8-1 5 4 8 8 5 2 3 7 2 8-1 4 2 8-2 6-6 4-4 1-9-3-9-1-4-7-5-9 0Z"/><path d="M17 10v18M10 15c3 0 4 2 4 4m9-7c-3 0-4 2-4 4m-7 8c2-2 4-2 6 0m6-2c-2-1-3-1-5 1"/>',
+      moon:'<path d="M27 21A12 12 0 0 1 11 5a12 12 0 1 0 16 16Z"/><path d="m22 5 1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3ZM8 22l1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2Z"/>',
+      hourglass:'<path d="M9 5h18M9 27h18M11 5c0 6 2 7 7 11-5 4-7 5-7 11M25 5c0 6-2 7-7 11 5 4 7 5 7 11M14 22h8"/>',
+      eye:'<path d="M3 16s5-8 13-8 13 8 13 8-5 8-13 8S3 16 3 16Z"/><circle cx="16" cy="16" r="4"/><path d="M16 12v8"/>',
+      dice:'<rect x="5" y="5" width="22" height="22" rx="4"/><circle cx="11" cy="11" r="1"/><circle cx="21" cy="11" r="1"/><circle cx="16" cy="16" r="1"/><circle cx="11" cy="21" r="1"/><circle cx="21" cy="21" r="1"/>',
+      hand:'<path d="M10 27v-9c0-2 3-2 3 0v-9c0-2 3-2 3 0v7-11c0-2 3-2 3 0v11-8c0-2 3-2 3 0v9-5c0-2 3-2 3 0v9c0 4-3 7-8 7h-3c-3 0-5-1-7-4Z"/>',
+      telescope:'<path d="m8 9 16 7-3 6-16-7 3-6Z"/><path d="m7 15-3 7m15 0 3 5m-7-8-3 8m10-18 4-4"/>',
+      spark:'<path d="m16 3 2.5 9.5L28 16l-9.5 2.5L16 28l-2.5-9.5L4 16l9.5-3.5L16 3Z"/><path d="m26 3 .8 3.2L30 7l-3.2.8L26 11l-.8-3.2L22 7l3.2-.8L26 3Z"/>',
+      rewind:'<path d="M12 9 4 16l8 7V9Zm12 0-8 7 8 7V9Z"/><path d="M28 8v16"/>',
+      clock:'<circle cx="16" cy="16" r="12"/><path d="M16 8v8l6 3"/>',
+      mind:'<path d="M16 5a5 5 0 0 0-9 3 5 5 0 0 0-2 9 5 5 0 0 0 5 8h12a5 5 0 0 0 5-8 5 5 0 0 0-2-9 5 5 0 0 0-9-3Z"/><path d="M16 5v22m-6-15 6 4 6-4m-12 9 6-3 6 3"/>',
+      loop:'<path d="M25 10a10 10 0 0 0-17 4l-2 2m0-7v7h7M7 22a10 10 0 0 0 17-4l2-2m0 7v-7h-7"/>',
+      cloud:'<path d="M9 24h15a6 6 0 0 0 1-12 9 9 0 0 0-17-1 6.5 6.5 0 0 0 1 13Z"/><path d="M12 18h8m-5-3 4 3-4 3"/>',
+      mask:'<path d="M16 4 27 8v8c0 7-5 11-11 13C10 27 5 23 5 16V8l11-4Z"/><path d="M10 14c2-2 4-2 6 0 2-2 4-2 6 0m-12 5c4 3 8 3 12 0"/>',
+      memory:'<path d="M8 7h16v20H8z"/><path d="M12 3h8v4h-8zM12 12h8m-8 4h8m-8 4h5"/><path d="m4 12 2 2-2 2"/>'
+    };
+
+    function cardMarkup(item) {
+      const icon = `<svg viewBox="0 0 32 32" aria-hidden="true">${art[item.art]}</svg>`;
+      const fullText = `${item.premise}\n${item.title}\nTHUMBNAIL TEXT\n${item.thumb}\nTHE REAL SCIENCE TWIST\n${item.science}`;
+      return `<article class="idea" style="--idea:${item.color}" data-search="${escapeAttr([item.n,item.premise,item.title,item.thumb,item.science].join(' '))}">
+        <div class="idea-top"><div class="number">${item.n}</div><div class="idea-heading"><p class="premise">PREMISE · “${escapeHtml(item.premise)}”</p><h3>${escapeHtml(item.title)}</h3></div><div class="art-chip">${icon}</div></div>
+        <span class="label">THUMBNAIL TEXT</span><div class="thumb-row"><span class="thumb">${escapeHtml(item.thumb)}</span><button class="copy-btn" data-copy="${escapeAttr(item.thumb)}" aria-label="Copy thumbnail text">Copy</button></div>
+        <span class="label">THE REAL SCIENCE TWIST</span><p class="science">${escapeHtml(item.science)}</p>
+        <div class="idea-actions"><button class="copy-btn primary-copy" data-copy="${escapeAttr(fullText)}">Copy idea</button><button class="copy-btn" data-copy="${escapeAttr(item.title)}">Copy title</button><button class="copy-btn" data-copy="${escapeAttr(item.science)}">Copy science twist</button></div>
+      </article>`;
+    }
+    function escapeHtml(value) { return String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+    function escapeAttr(value) { return escapeHtml(value).replace(/\n/g,'&#10;'); }
+    const cards = document.getElementById('cards');
+    cards.innerHTML = ideas.map(cardMarkup).join('') + '<div id="empty-inline" class="empty">No matching ideas. Try another search.</div>';
+    const search = document.getElementById('search');
+    const empty = document.getElementById('empty');
+    search.addEventListener('input', () => {
+      const q = search.value.trim().toLowerCase();
+      let shown = 0;
+      cards.querySelectorAll('.idea').forEach(card => {
+        const match = card.dataset.search.toLowerCase().includes(q);
+        card.hidden = !match;
+        if (match) shown++;
+      });
+      empty.style.display = shown ? 'none' : 'block';
+    });
+    let toastTimer;
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('show'), 1700);
+    }
+    async function copyText(value) {
+      try {
+        await navigator.clipboard.writeText(value);
+        showToast('Copied to clipboard');
+      } catch (err) {
+        const area = document.createElement('textarea');
+        area.value = value;
+        area.style.position = 'fixed'; area.style.opacity = '0';
+        document.body.appendChild(area); area.select();
+        const ok = document.execCommand('copy'); area.remove();
+        showToast(ok ? 'Copied to clipboard' : 'Copy not available in this browser');
+      }
+    }
+    document.addEventListener('click', event => {
+      const btn = event.target.closest('[data-copy]');
+      if (btn) copyText(btn.dataset.copy);
+    });
+    document.getElementById('copy-all').addEventListener('click', () => copyText(ideas.map(i => `${i.n}\n${i.premise}\n${i.title}\nTHUMBNAIL TEXT\n${i.thumb}\nTHE REAL SCIENCE TWIST\n${i.science}`).join('\n\n')));
+    document.getElementById('jump-to-ideas').addEventListener('click', () => document.getElementById('ideas-title').scrollIntoView({behavior:'smooth'}));
+  </script>
+</body>
+</html>
