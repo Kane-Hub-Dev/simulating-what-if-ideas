@@ -130,7 +130,10 @@
     .divider-glow { height: 1px; margin: 12px 0 26px; background: linear-gradient(90deg, transparent, rgba(32,213,232,.35), rgba(255,107,24,.35), transparent); }
     footer { display: flex; align-items: center; justify-content: space-between; gap: 15px; flex-wrap: wrap; margin-top: 18px; padding: 22px 0 30px; border-top: 1px solid var(--line); color: #7f8ca5; font-size: 9px; letter-spacing: .14em; text-transform: uppercase; }
     .footer-mark { color: #dce5f2; font-weight: 950; letter-spacing: .2em; }
-    @keyframes rail { to { background-position: 220% 0; } }
+    .brand-section.cinema .section-kicker { color: var(--violet); }
+    .brand-section.cinema .brand-tag .mini { background: var(--violet); box-shadow: 0 0 12px var(--violet); }
+    .page-card.cinema { --accent: var(--violet); }
+        @keyframes rail { to { background-position: 220% 0; } }
     @keyframes text-flow { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
     @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .45; transform: scale(.72); } }
     @keyframes breathe { 0%,100% { transform: scale(.94); opacity: .72; } 50% { transform: scale(1.08); opacity: 1; } }
@@ -170,13 +173,13 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow"><span class="live-dot"></span> Workspace directory · Main hub</p>
-          <h1 id="hero-title">One studio.<span>Four worlds.</span></h1>
+          <h1 id="hero-title">One studio.<span>Five destinations.</span></h1>
           <div class="hero-rule"></div>
           <p class="hero-description">Your creative workspaces, organized in one place. Jump straight into ideas, master prompts, and production resources with a single click.</p>
           <div class="hero-meta">
             <span class="meta-pill">SIMULATING</span>
             <span class="meta-pill">KERNFILES</span>
-            <span class="meta-pill">4 Live Pages</span>
+            <span class="meta-pill">5 Live Pages</span>
           </div>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -245,12 +248,36 @@
           </article>
         </div>
       </section>
+
+
+      <div class="divider-glow" aria-hidden="true"></div>
+
+      <section class="brand-section cinema" aria-labelledby="cinema-title">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">03 / SIKE CINEMA</p>
+            <h2 id="cinema-title">SIKE CINEMA</h2>
+            <p class="section-sub">Cinematic story concepts, bilingual film worlds, and ready-to-use production details.</p>
+          </div>
+          <span class="brand-tag"><span class="mini"></span> Explore SIKE CINEMA</span>
+        </div>
+        <div class="cards">
+          <article class="page-card cinema">
+            <div class="card-top">
+              <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 9h24v18H4zM4 9l5-5h5l-5 5m9 0 5-5h5l-5 5M4 15h24"/><path d="m13 18 7 3.5-7 3.5z"/></svg></div>
+              <div><p class="card-label">Cinematic idea library</p><h3>SIKE CINEMA Ideas</h3></div>
+            </div>
+            <p class="card-copy">Explore all 10 cinematic film concepts with their full official titles, Kinyarwanda story explanations, English synopses, YouTube chapters, and pinned comments.</p>
+            <div class="card-footer"><span class="card-status">10 films · Bilingual story vault</span><a class="open-btn" href="https://kane-hub-dev.github.io/simulating-what-if-ideas/sike-cinema/" target="_blank" rel="noopener">Open page <span class="arrow">↗</span></a></div>
+          </article>
+        </div>
+      </section>
     </main>
 
     <footer>
       <span class="footer-mark">SIKE STUDIO</span>
       <span>SIMULATING → KERNFILES</span>
-      <span>One hub · Four destinations</span>
+      <span>One hub · Five destinations</span>
     </footer>
   </div>
 </body>
