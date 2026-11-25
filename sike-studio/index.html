@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#080b17">
-  <meta name="description" content="SIKE STUDIO — a premium hub for the SIMULATING and KERNFILES creative workspaces.">
+  <meta name="description" content="SIKE STUDIO — a premium hub for SIMULATING, KERNFILES, SIKE CINEMA, and SIKE PROMPTS creative workspaces.">
   <title>SIKE STUDIO — Creative Hub</title>
   <style>
     :root {
@@ -104,6 +104,8 @@
     .brand-tag .mini { width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 12px var(--cyan); }
     .brand-section.kern .section-kicker { color: var(--orange); }
     .brand-section.kern .brand-tag .mini { background: var(--orange); box-shadow: 0 0 12px var(--orange); }
+    .brand-section.prompts .section-kicker { color: var(--gold); }
+    .brand-section.prompts .brand-tag .mini { background: var(--gold); box-shadow: 0 0 12px var(--gold); }
     .cards { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 17px; margin-bottom: 35px; }
     .page-card {
       --accent: var(--cyan); position: relative; min-height: 230px; display: flex; flex-direction: column; overflow: hidden;
@@ -112,6 +114,7 @@
       transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
     }
     .page-card.kern { --accent: var(--orange); }
+    .page-card.prompts { --accent: var(--gold); }
     .page-card::before { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 4px; background: var(--accent); box-shadow: 0 0 22px var(--accent); }
     .page-card::after { content: ""; position: absolute; width: 200px; height: 200px; top: -120px; right: -90px; border: 1px solid color-mix(in srgb, var(--accent), transparent 72%); border-radius: 50%; box-shadow: 0 0 0 22px color-mix(in srgb, var(--accent), transparent 95%), 0 0 0 48px color-mix(in srgb, var(--accent), transparent 97%); transition: transform .5s ease; pointer-events: none; }
     .page-card:hover { transform: translateY(-5px); border-color: color-mix(in srgb, var(--accent), transparent 46%); box-shadow: 0 24px 58px rgba(0,0,0,.32), 0 0 28px color-mix(in srgb, var(--accent), transparent 92%); }
@@ -173,13 +176,15 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow"><span class="live-dot"></span> Workspace directory · Main hub</p>
-          <h1 id="hero-title">One studio.<span>Five destinations.</span></h1>
+          <h1 id="hero-title">One studio.<span>Six destinations.</span></h1>
           <div class="hero-rule"></div>
           <p class="hero-description">Your creative workspaces, organized in one place. Jump straight into ideas, master prompts, and production resources with a single click.</p>
           <div class="hero-meta">
             <span class="meta-pill">SIMULATING</span>
             <span class="meta-pill">KERNFILES</span>
-            <span class="meta-pill">5 Live Pages</span>
+            <span class="meta-pill">SIKE CINEMA</span>
+            <span class="meta-pill">SIKE PROMPTS</span>
+            <span class="meta-pill">6 Live Pages</span>
           </div>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -272,12 +277,35 @@
           </article>
         </div>
       </section>
+
+      <div class="divider-glow" aria-hidden="true"></div>
+
+      <section class="brand-section prompts" aria-labelledby="prompts-title">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">04 / SIKE PROMPTS</p>
+            <h2 id="prompts-title">SIKE PROMPTS</h2>
+            <p class="section-sub">The complete SIKE CINEMA prompt studio, from scriptwriting and visual production to packaging and SEO.</p>
+          </div>
+          <span class="brand-tag"><span class="mini"></span> Explore SIKE PROMPTS</span>
+        </div>
+        <div class="cards">
+          <article class="page-card prompts">
+            <div class="card-top">
+              <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M7 4h13l5 5v19H7z"/><path d="M20 4v6h5M11 15h10m-10 5h10m-10 5h6"/></svg></div>
+              <div><p class="card-label">Master prompt studio · V4</p><h3>SIKE CINEMA Prompt Studio</h3></div>
+            </div>
+            <p class="card-copy">Open all seven copy-ready master prompts, including the complete Packaging &amp; SEO Master Prompt 7 with its three thumbnail archetypes and YouTube publishing workflow.</p>
+            <div class="card-footer"><span class="card-status">7 prompts · Scriptwriting · Visuals · Packaging</span><a class="open-btn" href="https://kane-hub-dev.github.io/simulating-what-if-ideas/sike-prompts/" target="_blank" rel="noopener">Open page <span class="arrow">↗</span></a></div>
+          </article>
+        </div>
+      </section>
     </main>
 
     <footer>
       <span class="footer-mark">SIKE STUDIO</span>
-      <span>SIMULATING → KERNFILES</span>
-      <span>One hub · Five destinations</span>
+      <span>SIMULATING → KERNFILES → SIKE</span>
+      <span>One hub · Six destinations</span>
     </footer>
   </div>
 </body>
